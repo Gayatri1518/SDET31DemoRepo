@@ -12,6 +12,6 @@ public class NewDemoPushToGithubTest
 	  System.out.println("user modification");
 	  System.out.println("user deleted");
 	  System.out.println("user 2 created");
-	  System.out.println("user 2 updated");
+	  System.out.println("user 2 deleted");
   }
 }
