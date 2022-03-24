@@ -13,6 +13,6 @@ public class NewDemoPushToGithubTest
 	  System.out.println("user deleted");
 	  System.out.println("user 2 created");
 	  System.out.println("user 2 deleted");
-	  System.out.println("user need to modify");
+	  System.out.println("user need to modified");
   }
 }
