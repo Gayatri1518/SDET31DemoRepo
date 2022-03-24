@@ -8,5 +8,7 @@ public class NewDemoPushToGithubTest
   public void push()
   {
 	  System.out.println("moved to github successfully");
+	  System.out.println("import user changes");
+	
   }
 }
