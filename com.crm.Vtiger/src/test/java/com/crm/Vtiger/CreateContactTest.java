@@ -9,5 +9,6 @@ public class CreateContactTest
     {
     	System.out.println("contact created");
     	System.out.println("contact updated");
+    	System.out.println("contact deleted");
     }
 }
