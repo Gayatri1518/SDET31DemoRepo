@@ -15,4 +15,10 @@ public class NewDemoPushToGithubTest
 	  System.out.println("user 2 deleted");
 	  System.out.println("user need to modified");
   }
+  
+  @Test
+  public void branch()
+  {
+	  System.out.println("branch practice");
+  }
 }
