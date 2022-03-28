@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginTest
 {
-    @Test
+    @Test(enabled=false)
     public void getdata()
     {
     	String browser=System.getProperty("browser");
