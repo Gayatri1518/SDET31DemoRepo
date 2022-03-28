@@ -21,30 +21,35 @@ public class LoginTest
     	String url=System.getProperty("url");
     	String username=System.getProperty("username");
     	String password=System.getProperty("password");
-    	WebDriver driver=null;
-    	if(browser.equalsIgnoreCase("chrome"))
-    	{
+    	
     	WebDriverManager.chromedriver().setup();
-    	driver=new ChromeDriver();
-    		//ChromeOptions chromeOptions= new ChromeOptions();
-    		//chromeOptions.setBinary("C:\\Users\\Manish\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
-    		// System.setProperty("webdriver.chrome.driver","C:\\Users\\manish\\Downloads\\chromedriver_win32\\chromedriver.exe");
-    		// driver = new ChromeDriver(chromeOptions);
-    	}
-    	else if(browser.equals("firefox"))
-    	{
-    		WebDriverManager.firefoxdriver().setup();
-    		driver=new FirefoxDriver();
-    	}
-    	else if(browser.equals("edge"))
-    	{
-    		WebDriverManager.edgedriver().setup();
-    		driver=new EdgeDriver();
-         }
-    	else
-    	{
-    		System.out.println("specify valid browser");
-    	}
+        WebDriver driver=new ChromeDriver();
+    	
+    	
+//    	WebDriver driver=null;
+//    	if(browser.equalsIgnoreCase("chrome"))
+//    	{
+//    	WebDriverManager.chromedriver().setup();
+//    	driver=new ChromeDriver();
+//    		//ChromeOptions chromeOptions= new ChromeOptions();
+//    		//chromeOptions.setBinary("C:\\Users\\Manish\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+//    		// System.setProperty("webdriver.chrome.driver","C:\\Users\\manish\\Downloads\\chromedriver_win32\\chromedriver.exe");
+//    		// driver = new ChromeDriver(chromeOptions);
+//    	}
+//    	else if(browser.equals("firefox"))
+//    	{
+//    		WebDriverManager.firefoxdriver().setup();
+//    		driver=new FirefoxDriver();
+//    	}
+//    	else if(browser.equals("edge"))
+//    	{
+//    		WebDriverManager.edgedriver().setup();
+//    		driver=new EdgeDriver();
+//         }
+//    	else
+//    	{
+//    		System.out.println("specify valid browser");
+//    	}
     	
     	
     	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
