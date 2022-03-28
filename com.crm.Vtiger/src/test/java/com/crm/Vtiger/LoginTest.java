@@ -23,8 +23,8 @@ public class LoginTest
     	WebDriver driver=null;
     	if(browser.equalsIgnoreCase("chrome"))
     	{
-    		WebDriverManager.chromedriver().setup();
-    		driver=new ChromeDriver();
+    	WebDriverManager.chromedriver().setup();
+    	driver=new ChromeDriver();
     	}
     	else if(browser.equals("firefox"))
     	{
