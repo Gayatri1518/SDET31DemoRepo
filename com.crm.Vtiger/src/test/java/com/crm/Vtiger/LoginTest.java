@@ -14,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class LoginTest
 {
     @Test
-    public void getdata()
+    public void login()
     {
     	String browser=System.getProperty("browser");
     	String url=System.getProperty("url");
