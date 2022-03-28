@@ -5,7 +5,7 @@
     <classes>
       <class name="com.crm.Vtiger.LoginTest">
         <methods>
-          <include name="getdata"/>
+          <include name="login"/>
         </methods>
       </class> <!-- com.crm.Vtiger.LoginTest -->
     </classes>

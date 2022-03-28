@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11421" started-at="2022-03-28T15:16:01 IST" finished-at="2022-03-28T15:16:12 IST">
+  <suite name="Default suite" duration-ms="41668" started-at="2022-03-28T16:30:03 IST" finished-at="2022-03-28T16:30:45 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11421" started-at="2022-03-28T15:16:01 IST" finished-at="2022-03-28T15:16:12 IST">
+    <test name="Default test" duration-ms="41668" started-at="2022-03-28T16:30:03 IST" finished-at="2022-03-28T16:30:45 IST">
       <class name="com.crm.Vtiger.LoginTest">
-        <test-method status="PASS" signature="getdata()[pri:0, instance:com.crm.Vtiger.LoginTest@5ed828d]" name="getdata" duration-ms="11355" started-at="2022-03-28T15:16:01 IST" finished-at="2022-03-28T15:16:12 IST">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.Vtiger.LoginTest@5ed828d]" name="login" duration-ms="41601" started-at="2022-03-28T16:30:03 IST" finished-at="2022-03-28T16:30:45 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getdata -->
+        </test-method> <!-- login -->
       </class> <!-- com.crm.Vtiger.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
