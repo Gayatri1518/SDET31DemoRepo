@@ -8,5 +8,6 @@ public class CreateOrganizationTest
     public void create()
     {
     	System.out.println("create organization successfully");
+    	System.out.println("org deleted");
     }
 }
