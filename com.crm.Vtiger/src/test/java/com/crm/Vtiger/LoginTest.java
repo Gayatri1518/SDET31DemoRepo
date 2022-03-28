@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
@@ -25,6 +26,10 @@ public class LoginTest
     	{
     	WebDriverManager.chromedriver().setup();
     	driver=new ChromeDriver();
+    		//ChromeOptions chromeOptions= new ChromeOptions();
+    		//chromeOptions.setBinary("C:\\Users\\Manish\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+    		// System.setProperty("webdriver.chrome.driver","C:\\Users\\manish\\Downloads\\chromedriver_win32\\chromedriver.exe");
+    		// driver = new ChromeDriver(chromeOptions);
     	}
     	else if(browser.equals("firefox"))
     	{
