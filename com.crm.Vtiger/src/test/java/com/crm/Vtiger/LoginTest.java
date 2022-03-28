@@ -21,7 +21,7 @@ public class LoginTest
     	String username=System.getProperty("username");
     	String password=System.getProperty("password");
     	WebDriver driver=null;
-    	if(browser.equals("chrome"))
+    	if(browser.equalsIgnoreCase("chrome"))
     	{
     		WebDriverManager.chromedriver().setup();
     		driver=new ChromeDriver();
